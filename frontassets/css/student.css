@@ -1,0 +1,82 @@
+body{
+    
+    background: no-repeat fixed ;
+    background-size:cover;
+    background-image: linear-gradient(141deg, rgba(134,134,134,0.52) 0%, rgba(37,37,37,0.73) 51%,
+    rgba(37,37,37,0.73) 75%), url("http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg");
+}
+
+.Form{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-left: 26%;
+    width: 700px;
+    background-color: rgba(0,0,0,0.5) !important;
+    border: 2px solid grey;
+    border-radius: 30px;
+}
+/*  room form   */
+#formroom{
+    height: 300px;
+}
+#idroom{
+    margin-left: 45%;
+}
+#idd1{
+    margin-left: 40%;
+}
+/*    manager form  & Studint & Supervisor*/
+#idmanager,#idstudint,#idSupervisor{
+    margin-left: 45%;
+}
+
+.Lable{
+    padding: 5px;
+    font-weight: bold;
+    
+    background-color: rgb(107, 104, 97);
+}
+.input{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 23px;
+    border:  rgba(202, 47, 47, 0.52) solid 2px;
+    border-radius: 20px;
+    padding: 3px;
+}
+.Add1{
+    margin-left: 230px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.Add1,.Add2{
+    font-size: 20px;
+    width: 130px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color:  #FFC312;
+    border: 2px solid black;
+
+}
+.Add1:hover,.Add2:hover{
+    background-color: brown;
+}
+form>h1{
+    text-align: center;
+    font-weight: bold;
+    color: #FFC312;
+    font-family: monospace;
+}
+form>hr{
+    margin-bottom: 20px;
+}
+.i{
+color: red;
+}
